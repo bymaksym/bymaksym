@@ -1,18 +1,50 @@
-<!--# 💫 About Me:
- 🔭 I’m currently trying to find a developer job<br>🌱 I’m currently learning Algorithms and Data Structures
+<div align="center">
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/maksym-ostapenko-kulieba-798228210)  -->
+# Maksym Ostapenko
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=mikisimi25&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mikisimi25&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=mikisimi25&theme=tokyonight&hide_border=false)<br/>
-<!---
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=mikisimi25&theme=onedark&no-frame=false&no-bg=true&margin-w=4)
+**Frontend Engineer** &nbsp;·&nbsp; Málaga, Spain
 
+Angular applications for enterprise clients — and the tooling that keeps them fast.
 
-[![](https://visitcount.itsvg.in/api?id=mikisimi25&icon=4&color=0)](https://visitcount.itsvg.in) -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-21262D?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/maksym-ostapenko-kulieba-798228210)
+[![npm](https://img.shields.io/badge/npm-21262D?style=flat-square&logo=npm&logoColor=CB3837)](https://www.npmjs.com/~bymaksym)
+
+</div>
+
+---
+
+### About
+
+Three years of Angular for enterprise clients — latest versions, Signals and Ionic, plus whatever the
+legacy branch is still running.
+
+I care more than is reasonable about what a page weighs before it finishes loading. That is how the
+tool below happened.
+
+### Selected work
+
+#### [Loadline](https://github.com/bymaksym/LoadLine) &nbsp;·&nbsp; `@bymaksym/loadline`
+
+[![npm](https://img.shields.io/npm/v/@bymaksym/loadline?style=flat-square&label=npm&labelColor=21262D&color=1F6FEB)](https://www.npmjs.com/package/@bymaksym/loadline)
+[![CI](https://img.shields.io/github/actions/workflow/status/bymaksym/LoadLine/ci.yml?style=flat-square&label=CI&labelColor=21262D&color=1F6FEB)](https://github.com/bymaksym/LoadLine/actions/workflows/ci.yml)
+[![license](https://img.shields.io/github/license/bymaksym/LoadLine?style=flat-square&labelColor=21262D&color=1F6FEB)](https://github.com/bymaksym/LoadLine/blob/main/LICENSE)
+
+Bundle analysers report what each chunk weighs. Loadline reports what each **screen** costs: it walks the
+import graph of your build, separates the bootstrap everyone downloads from the code a single route adds,
+and counts how many round trips a screen takes to arrive.
+
+One tool, two front doors — a single HTML page that runs offline in your browser, and a command for your
+pipeline. Same code, same numbers. Zero runtime dependencies, nothing uploaded, nothing fetched.
+
+```console
+$ npx @bymaksym/loadline dist/app/browser
+```
+
+### Stack
+
+|                        |                                                                                                              |
+| :--------------------- | :----------------------------------------------------------------------------------------------------------- |
+| **Core**               | ![Angular](https://img.shields.io/badge/Angular-21262D?style=flat-square&logo=angular&logoColor=DD0031) ![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square&logo=typescript&logoColor=3178C6) ![RxJS](https://img.shields.io/badge/RxJS-21262D?style=flat-square&logo=reactivex&logoColor=B7178C) ![Ionic](https://img.shields.io/badge/Ionic-21262D?style=flat-square&logo=ionic&logoColor=3880FF) ![Sass](https://img.shields.io/badge/Sass-21262D?style=flat-square&logo=sass&logoColor=CC6699) |
+| **Frontend**           | Signals · Standalone components · PrimeNG · Reactive Forms · REST APIs · Component library design               |
+| **Quality & delivery** | GitLab CI/CD · Semantic Release · Sentry · ESLint · Stylelint · Prettier · Husky · commitlint · Renovate        |
+| **Also**               | Java · Spring Boot · React · Docker · Firebase                                                                 |
