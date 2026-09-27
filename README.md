@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/bymaksymdev-banner.png" alt="ByMaksymDev Labs — apps, open source, experiments" width="100%">
+
 # Maksym Ostapenko
 
 **Frontend Engineer** &nbsp;·&nbsp; Málaga, Spain
