@@ -8,6 +8,7 @@ Angular applications for enterprise clients — and the tooling that keeps them 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-21262D?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/maksym-ostapenko-kulieba-798228210)
 [![npm](https://img.shields.io/badge/npm-21262D?style=flat-square&logo=npm&logoColor=CB3837)](https://www.npmjs.com/~bymaksym)
+[![Discord](https://img.shields.io/badge/ByMaksymDev_Labs-21262D?style=flat-square&logo=discord&logoColor=5865F2)](https://discord.gg/ctDJjFF9yT)
 
 </div>
 
@@ -19,7 +20,7 @@ Three years of Angular for enterprise clients — latest versions, Signals and I
 legacy branch is still running.
 
 I care more than is reasonable about what a page weighs before it finishes loading. That is how the
-tool below happened.
+first tool below happened. The second one is an Android app I wanted for my own trips.
 
 ### Selected work
 
@@ -40,6 +41,19 @@ pipeline. Same code, same numbers. Zero runtime dependencies, nothing uploaded, 
 $ npx @bymaksym/loadline dist/app/browser
 ```
 
+#### [Waypack](https://github.com/bymaksym/waypack) &nbsp;·&nbsp; Android
+
+[![release](https://img.shields.io/github/v/release/bymaksym/waypack?style=flat-square&label=release&labelColor=21262D&color=2E6E68)](https://github.com/bymaksym/waypack/releases/latest)
+[![Kotlin](https://img.shields.io/badge/Kotlin-21262D?style=flat-square&logo=kotlin&logoColor=7F52FF)](https://github.com/bymaksym/waypack)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-21262D?style=flat-square&logo=jetpackcompose&logoColor=4285F4)](https://github.com/bymaksym/waypack)
+
+A packing and trip organizer: what to bring, by day, by bag and by person. Two checks instead of
+one — *prepared* and *actually in the bag* — so what you found but left on the table still
+shows up before you leave.
+
+The domain is plain Kotlin Multiplatform, so it can travel to iOS without a rewrite, and it ships
+in four languages from the first release.
+
 ### Stack
 
 |                        |                                                                                                              |
@@ -47,4 +61,4 @@ $ npx @bymaksym/loadline dist/app/browser
 | **Core**               | ![Angular](https://img.shields.io/badge/Angular-21262D?style=flat-square&logo=angular&logoColor=DD0031) ![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square&logo=typescript&logoColor=3178C6) ![RxJS](https://img.shields.io/badge/RxJS-21262D?style=flat-square&logo=reactivex&logoColor=B7178C) ![Ionic](https://img.shields.io/badge/Ionic-21262D?style=flat-square&logo=ionic&logoColor=3880FF) ![Sass](https://img.shields.io/badge/Sass-21262D?style=flat-square&logo=sass&logoColor=CC6699) |
 | **Frontend**           | Signals · Standalone components · PrimeNG · Reactive Forms · REST APIs · Component library design               |
 | **Quality & delivery** | GitLab CI/CD · Semantic Release · Sentry · ESLint · Stylelint · Prettier · Husky · commitlint · Renovate        |
-| **Also**               | Java · Spring Boot · React · Docker · Firebase                                                                 |
+| **Also**               | Kotlin · Jetpack Compose · Kotlin Multiplatform · Java · Spring Boot · React · Docker · Firebase             |
