@@ -6,7 +6,7 @@
 
 Angular applications for enterprise clients — and the tooling that keeps them fast.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-21262D?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/maksym-ostapenko-kulieba-798228210)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-21262D?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://es.linkedin.com/in/maksym-ostapenko-798228210)
 [![npm](https://img.shields.io/badge/npm-21262D?style=flat-square&logo=npm&logoColor=CB3837)](https://www.npmjs.com/~bymaksym)
 [![Discord](https://img.shields.io/badge/ByMaksymDev_Labs-21262D?style=flat-square&logo=discord&logoColor=5865F2)](https://discord.gg/ctDJjFF9yT)
 
