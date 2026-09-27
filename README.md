@@ -18,11 +18,14 @@ Angular applications for enterprise clients — and the tooling that keeps them 
 
 ### About
 
-Three years of Angular for enterprise clients — latest versions, Signals and Ionic, plus whatever the
-legacy branch is still running.
+Frontend engineer building Angular applications for enterprise clients — from the first line
+through to production, and keeping the older ones running. I also look after what surrounds them:
+tests, CI/CD, automated releases and error monitoring, with Java and Spring Boot when the backend
+needs a hand.
 
-I care more than is reasonable about what a page weighs before it finishes loading. That is how the
-first tool below happened. The second one is an Android app I wanted for my own trips.
+Outside work I build tools I actually use: **Loadline** tells you what each screen of a web app
+really downloads, so you can fix it before it ships, and **Waypack** is an Android app for packing
+by day, by bag and by person.
 
 ### Selected work
 
