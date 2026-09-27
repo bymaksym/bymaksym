@@ -26,6 +26,11 @@ first tool below happened. The second one is an Android app I wanted for my own 
 
 ### Selected work
 
+<p align="center">
+  <a href="https://github.com/bymaksym/LoadLine"><img src="https://raw.githubusercontent.com/bymaksym/LoadLine/main/.github/banner.png" alt="Loadline" width="49%"></a>
+  <a href="https://github.com/bymaksym/waypack"><img src="https://raw.githubusercontent.com/bymaksym/waypack/main/assets/banner.png" alt="Waypack" width="49%"></a>
+</p>
+
 #### [Loadline](https://github.com/bymaksym/LoadLine) &nbsp;·&nbsp; `@bymaksym/loadline`
 
 [![npm](https://img.shields.io/npm/v/@bymaksym/loadline?style=flat-square&label=npm&labelColor=21262D&color=1F6FEB)](https://www.npmjs.com/package/@bymaksym/loadline)
