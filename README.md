@@ -64,6 +64,8 @@ shows up before you leave.
 The domain is plain Kotlin Multiplatform, so it can travel to iOS without a rewrite, and it ships
 in four languages from the first release.
 
+Testing it, or found a bug? Come say hi on [Discord](https://discord.gg/ctDJjFF9yT).
+
 ### Stack
 
 |                        |                                                                                                              |
