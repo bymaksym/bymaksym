@@ -30,7 +30,7 @@ by day, by bag and by person.
 ### Selected work
 
 <p align="center">
-  <a href="https://github.com/bymaksym/LoadLine"><img src="https://raw.githubusercontent.com/bymaksym/LoadLine/main/.github/banner.png" alt="Loadline" width="49%"></a>
+  <a href="https://github.com/bymaksym/LoadLine"><img src="https://raw.githubusercontent.com/bymaksym/LoadLine/main/.github/banner.png?v=2" alt="Loadline" width="49%"></a>
   <a href="https://github.com/bymaksym/waypack"><img src="https://raw.githubusercontent.com/bymaksym/waypack/main/assets/banner.png?v=1.1" alt="Waypack" width="49%"></a>
 </p>
 
