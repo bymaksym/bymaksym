@@ -24,13 +24,15 @@ tests, CI/CD, automated releases and error monitoring, with Java and Spring Boot
 needs a hand.
 
 Outside work I build tools I actually use: **Loadline** tells you what each screen of a web app
-really downloads, so you can fix it before it ships, and **Waypack** is an Android app for packing
-by day, by bag and by person.
+really downloads, so you can fix it before it ships, **crowded-folders** finds the folders of a
+repository that have quietly become a drawer, and **Waypack** is an Android app for packing by day, by
+bag and by person.
 
 ### Selected work
 
 <p align="center">
   <a href="https://github.com/bymaksym/LoadLine"><img src="https://raw.githubusercontent.com/bymaksym/LoadLine/main/.github/banner.png?v=2" alt="Loadline" width="49%"></a>
+  <a href="https://github.com/bymaksym/CrowdedFolders"><img src="https://raw.githubusercontent.com/bymaksym/CrowdedFolders/main/.github/banner.png?v=1" alt="crowded-folders" width="49%"></a>
   <a href="https://github.com/bymaksym/waypack"><img src="https://raw.githubusercontent.com/bymaksym/waypack/main/assets/banner.png?v=1.1" alt="Waypack" width="49%"></a>
 </p>
 
@@ -49,6 +51,24 @@ pipeline. Same code, same numbers. Zero runtime dependencies, nothing uploaded, 
 
 ```console
 $ npx @bymaksym/loadline dist/app/browser
+```
+
+#### [crowded-folders](https://github.com/bymaksym/CrowdedFolders) &nbsp;·&nbsp; `crowded-folders`
+
+[![npm](https://img.shields.io/npm/v/crowded-folders?style=flat-square&label=npm&labelColor=21262D&color=28A880)](https://www.npmjs.com/package/crowded-folders)
+[![CI](https://img.shields.io/github/actions/workflow/status/bymaksym/CrowdedFolders/ci.yml?style=flat-square&label=CI&labelColor=21262D&color=28A880)](https://github.com/bymaksym/CrowdedFolders/actions/workflows/ci.yml)
+[![license](https://img.shields.io/github/license/bymaksym/CrowdedFolders?style=flat-square&labelColor=21262D&color=28A880)](https://github.com/bymaksym/CrowdedFolders/blob/main/LICENSE)
+
+A linter for the shape of the tree. It finds folders with too many files, and files sharing a prefix
+that are a folder nobody made — `render-json`, `render-text`, `render-sarif`, `render-pr` → `render/`.
+It reads names in every convention, counts a file with its tests and templates once, and follows each
+ecosystem's own style guide, with presets for 27 of them, from Angular and Go to Unity and Terraform.
+
+Its limits are measured, not guessed: 20 modules is the median 95th percentile of folder sizes over 30
+real repositories. Any language, zero runtime dependencies, and it only ever reads file names.
+
+```console
+$ npx crowded-folders
 ```
 
 #### [Waypack](https://github.com/bymaksym/waypack) &nbsp;·&nbsp; Android
